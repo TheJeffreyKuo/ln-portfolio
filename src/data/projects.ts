@@ -1,0 +1,30 @@
+export interface Project {
+  slug: string;
+  title: string;
+  image: string;
+  category: string;
+  description: string;
+  specs: { label: string; value: string }[];
+  images: { src: string; caption: string }[];
+}
+
+export const projects: Project[] = [
+  {
+    slug: "thermal-imaging",
+    title: "Multi-Sensor Thermal Imaging Platform (in progress)",
+    image: "/images/thermal-sensor.jpg",
+    category: "Embedded Systems",
+    description:
+      "A hardware instrument for real-time thermal imaging of electronics and PCBs, inspired by techniques used in semiconductor failure analysis. Built around a Raspberry Pi 5, the system combines a Pi Camera Module 3 and MLX90640 infrared thermal camera for sensor fusion. So far the Pi has been configured with remote SSH access and port forwarding, and the MLX90640 has been connected over I2C. Next steps include wiring the remaining sensors, designing a 3D printed housing in AutoCAD, and streaming live thermal data to a web dashboard built in collaboration with a software partner.",
+    specs: [
+      { label: "Sensors",       value: "MLX90640 thermal array, BME280 (temp/humidity/pressure), VL53L7CX ToF distance sensor, Pi Camera Module 3" },
+      { label: "Communication", value: "I2C" },
+      { label: "Platform",      value: "Raspberry Pi 5, Debian Linux" },
+      { label: "Design",        value: "AutoCAD housing (in progress)" },
+      { label: "Interface",     value: "React web dashboard (in progress)" },
+    ],
+    images: [
+      { src: "/images/thermal-closeup.jpg",     caption: "MLX90640 infrared thermal camera module" },
+    ],
+  },
+];
