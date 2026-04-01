@@ -43,6 +43,7 @@ export const technicalSkills = [
   "MATLAB",
   "Raspberry Pi",
   "Arduino",
+  "FPGA",
 ];
 
 // Experience & education timeline
