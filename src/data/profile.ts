@@ -46,6 +46,7 @@ export const technicalSkills = [
   "FPGA",
   "Circuit Design",
   "Raspberry Pi",
+  "AutoCAD",
 ];
 
 // Experience & education timeline
