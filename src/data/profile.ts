@@ -47,6 +47,7 @@ export const technicalSkills = [
   "Circuit Design",
   "Raspberry Pi",
   "AutoCAD",
+  "SolidWorks",
 ];
 
 // Experience & education timeline
