@@ -27,4 +27,21 @@ export const projects: Project[] = [
       { src: "/images/thermal-closeup.jpg",     caption: "MLX90640 infrared thermal camera module" },
     ],
   },
+  {
+    slug: "ECG-Monitor",
+    title: "ECG Analog Circuit",
+    image: "/images/ecg-circuit.jpg",
+    category: "Circuit Design",
+    description:
+      "Designed and built an analog ECG signal acquisition circuit using an instrumentation amplifier with tuned high and low pass filters to amplify and condition a biosignal while suppressing noise and improving signal clarity.",
+    specs: [
+      { label: "Filters",       value: "Tuned high and low pass filters (this section is in progress)" },
+    ],
+    images: [
+      { src: "/images/unfiltered-ecg.jpg",     caption: "Oscilloscope trace of the full unfiltered ECG signal" },
+      { src: "/images/filtered-ecg.jpg",     caption: "Oscilloscope trace of the full filtered ECG signal" },
+      { src: "/images/unfiltered-enhanced.jpg",     caption: "This signal contains noticeably more noise compared to the filtered signal" },
+      { src: "/images/filtered-enhanced.jpg",     caption: "This signal is noticeably smoother than the unfiltered signal" },
+    ],
+  },
 ];
