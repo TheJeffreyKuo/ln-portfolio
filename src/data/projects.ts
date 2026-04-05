@@ -4,7 +4,7 @@ export interface Project {
   image: string;
   category: string;
   description: string;
-  specs: { label: string; value: string }[];
+  specs?: { label: string; value: string }[];
   images: { src: string; caption: string }[];
 }
 

@@ -22,6 +22,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
         <div>
           <TextReveal text={project.title} as="h1" />
 
+          {project.specs && (
           <FadeIn delay={0.15}>
             <div className="specs">
               <h3>Specs</h3>
@@ -33,6 +34,7 @@ export default function ProjectDetail({ project }: { project: Project }) {
               ))}
             </div>
           </FadeIn>
+          )}
         </div>
 
         <FadeIn delay={0.2} direction="left">
