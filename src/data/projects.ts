@@ -34,9 +34,6 @@ export const projects: Project[] = [
     category: "Circuit Design",
     description:
       "Designed and built an analog ECG signal acquisition circuit using an instrumentation amplifier with tuned high and low pass filters to amplify and condition a biosignal while suppressing noise and improving signal clarity.",
-    specs: [
-      { label: "Filters",       value: "Tuned high and low pass filters (this section is in progress)" },
-    ],
     images: [
       { src: "/images/unfiltered-ecg.jpg",     caption: "Oscilloscope trace of the full unfiltered ECG signal" },
       { src: "/images/filtered-ecg.jpg",     caption: "Oscilloscope trace of the full filtered ECG signal" },
