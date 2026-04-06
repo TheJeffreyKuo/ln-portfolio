@@ -27,6 +27,23 @@ export const projects: Project[] = [
       { src: "/images/thermal-closeup.jpg",     caption: "MLX90640 infrared thermal camera module" },
     ],
   },
+    {
+    slug: "pi-hole",
+    title: "DNS Sinkhole",
+    image: "/images/dns-sinkhole.jpg",
+    category: "Network Administration",
+    description:
+      "Built a Raspberry Pi based DNS Sinkhole which intercepts DNS queries from unwanted domains and returns a controlled IP address instead of the actual destination. This allows things like pop-up ads to be blocked for all devices on a network.",
+    specs: [
+      { label: "Hardware",       value: "Raspberry Pi Zero, 5V 2.5A Power Supply, Ethernet to Micro USB Adapter, 32GB Micro SD" },
+      { label: "Software", value: "Pi-hole" },
+      { label: "Network config",      value: "Static IP assignment, router-level DHCP configuration" },
+      { label: "Coverage",        value: "Network-wide ad and domain blocking for all connected devices" },
+    ],
+    images: [
+      { src: "/images/sinkhole-pi.jpg",     caption: "Raspberry Pi Zero with Pi-hole installed" },
+    ],
+  },
   {
     slug: "ECG-Monitor",
     title: "ECG Analog Circuit",
