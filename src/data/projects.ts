@@ -58,4 +58,18 @@ export const projects: Project[] = [
       { src: "/images/filtered-enhanced.jpg",     caption: "This signal is noticeably smoother than the unfiltered signal" },
     ],
   },
+  {
+    slug: "RC-Car",
+    title: "Autonomous RC Car",
+    image: "/images/rc-car.jpg",
+    category: "Embedded Systems",
+    description:
+      "Assembled and wired an Arduino-based robot car with an HC-SR04 ultrasonic sensor and motor driver, then programmed real-time obstacle detection and avoidance logic using Arduino IDE.",
+    images: [
+      { src: "/images/rc-car-front.jpg",     caption: "Front view of the autonomous RC car" },
+      { src: "/images/rc-car-back.jpg",     caption: "Back view of the autonomous RC car" },
+      { src: "/images/rc-car-left.jpg",     caption: "Left side view of the autonomous RC car" },
+      { src: "/images/rc-car-code.jpg",     caption: "Sample of the code used to navigate the obstacle course - The number of turns done by the car were taken into account, as the car needed to display different behavior based on where it was in the obstacle course." },
+    ],
+  },
 ];
