@@ -28,6 +28,21 @@ export const projects: Project[] = [
     ],
   },
     {
+    slug: "bcd-converter",
+    title: "Binary Coded Decimal Converter",
+    image: "/images/bcd-converter.jpg",
+    category: "Embedded Systems",
+    description:
+      "Designed and implemented a combinational logic circuit to decode 4-bit BCD inputs into seven-segment display outputs, using Karnaugh maps for logic minimization and Quartus Prime for simulation and FPGA programming.",
+    images: [
+      { src: "/images/7-segment-diagram.jpg",     caption: "Diagram of a 7-segment display and my corresponding truth table - 0 means the segment is on. 1 means the segment is off." },
+      { src: "/images/e-output-karnaugh.jpg",     caption: "Karnaugh map analysis for the “e” segment output (top). Minimized Boolean expressions for all segments (bottom)" },
+      { src: "/images/waveform-simulation-quartus.jpg",     caption: "Waveform Simulation of Circuit" },
+      { src: "/images/7-display-0011-output.jpg",     caption: "7 display decimal output of 0011 (binary)" },
+      { src: "/images/7-display-1000-output.jpg",     caption: "7 display decimal output of 1000 (binary)" },
+    ],
+  },
+    {
     slug: "pi-hole",
     title: "DNS Sinkhole",
     image: "/images/dns-sinkhole.jpg",
