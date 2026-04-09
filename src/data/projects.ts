@@ -28,6 +28,21 @@ export const projects: Project[] = [
     ],
   },
     {
+    slug: "bcd-converter",
+    title: "Binary Coded Decimal Converter",
+    image: "/images/bcd-converter.jpg",
+    category: "Embedded Systems",
+    description:
+      "Designed and implemented a combinational logic circuit to decode 4-bit BCD inputs into seven-segment display outputs, using Karnaugh maps for logic minimization and Quartus Prime for simulation and FPGA programming.",
+    images: [
+      { src: "/images/7-segment-diagram.jpg",     caption: "Diagram of a 7-segment display and my corresponding truth table - 0 means the segment is on. 1 means the segment is off." },
+      { src: "/images/e-output-karnaugh.jpg",     caption: "Karnaugh map analysis for the “e” segment output (top). Minimized Boolean expressions for all segments (bottom)" },
+      { src: "/images/waveform-simulation-quartus.jpg",     caption: "Waveform Simulation of Circuit" },
+      { src: "/images/7-display-0011-output.jpg",     caption: "7 display decimal output of 0011 (binary)" },
+      { src: "/images/7-display-1000-output.jpg",     caption: "7 display decimal output of 1000 (binary)" },
+    ],
+  },
+    {
     slug: "pi-hole",
     title: "DNS Sinkhole",
     image: "/images/dns-sinkhole.jpg",
@@ -56,6 +71,20 @@ export const projects: Project[] = [
       { src: "/images/filtered-ecg.jpg",     caption: "Oscilloscope trace of the full filtered ECG signal" },
       { src: "/images/unfiltered-enhanced.jpg",     caption: "This signal contains noticeably more noise compared to the filtered signal" },
       { src: "/images/filtered-enhanced.jpg",     caption: "This signal is noticeably smoother than the unfiltered signal" },
+    ],
+  },
+  {
+    slug: "RC-Car",
+    title: "Autonomous RC Car",
+    image: "/images/rc-car.jpg",
+    category: "Embedded Systems",
+    description:
+      "Assembled and wired an Arduino-based robot car with an HC-SR04 ultrasonic sensor and motor driver, then programmed real-time obstacle detection and avoidance logic using Arduino IDE.",
+    images: [
+      { src: "/images/rc-car-front.jpg",     caption: "Front view of the autonomous RC car" },
+      { src: "/images/rc-car-back.jpg",     caption: "Back view of the autonomous RC car" },
+      { src: "/images/rc-car-left.jpg",     caption: "Left side view of the autonomous RC car" },
+      { src: "/images/rc-car-code.jpg",     caption: "Sample of the code used to navigate the obstacle course - The number of turns done by the car were taken into account, as the car needed to display different behavior based on where it was in the obstacle course." },
     ],
   },
 ];
