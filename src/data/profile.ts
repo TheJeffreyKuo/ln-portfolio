@@ -48,6 +48,7 @@ export const technicalSkills = [
   "Raspberry Pi",
   "AutoCAD",
   "SolidWorks",
+  "Oscilloscope",
   "Quartus Prime",
   "LTspice",
   "PSpice",
