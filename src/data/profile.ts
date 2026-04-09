@@ -49,6 +49,9 @@ export const technicalSkills = [
   "AutoCAD",
   "SolidWorks",
   "Oscilloscope",
+  "Quartus Prime",
+  "LTspice",
+  "PSpice",
 ];
 
 // Experience & education timeline
