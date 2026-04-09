@@ -48,6 +48,8 @@ export const technicalSkills = [
   "Raspberry Pi",
   "AutoCAD",
   "SolidWorks",
+  "LTspice",
+  "PSpice",
 ];
 
 // Experience & education timeline
