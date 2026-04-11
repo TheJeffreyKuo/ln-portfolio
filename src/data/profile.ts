@@ -53,6 +53,7 @@ export const technicalSkills = [
   "LTspice",
   "PSpice",
   "I2C",
+  "NumPy",
 ];
 
 // Experience & education timeline

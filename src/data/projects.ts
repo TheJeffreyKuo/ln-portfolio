@@ -60,7 +60,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "ECG-Monitor",
+    slug: "ecg-monitor",
     title: "ECG Analog Circuit",
     image: "/images/ecg-circuit.jpg",
     category: "Circuit Design",
@@ -74,7 +74,22 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: "RC-Car",
+    slug: "plant-care-system",
+    title: "Sustainable Mini Plant-Care System",
+    image: "/images/plant-care.jpg",
+    category: "Embedded Systems",
+    description:
+      "Designed and built a solar-powered autonomous plant-care system, programming an Arduino to automatically trigger a watering system and environmental display in response to real-time humidity, sunlight, and temperature sensor readings.",
+    images: [
+      { src: "/images/plant-schematic.jpg",     caption: "Design schematic of the plant-care system" },
+      { src: "/images/plant-care-system-front.jpg",     caption: "Front view of the plant-care system" },
+      { src: "/images/plant-care-system-side.jpg",     caption: "Side view of the plant-care system" },
+      { src: "/images/plant-care-system-light-temperature.jpg",     caption: "Close-up of light and temperature sensors" },
+      { src: "/images/plant-care-system-humidity.jpg",     caption: "Close-up of humidity sensor and water pump" },
+    ],
+  },
+  {
+    slug: "rc-car",
     title: "Autonomous RC Car",
     image: "/images/rc-car.jpg",
     category: "Embedded Systems",
