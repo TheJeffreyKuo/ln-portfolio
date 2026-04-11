@@ -52,6 +52,7 @@ export const technicalSkills = [
   "Quartus Prime",
   "LTspice",
   "PSpice",
+  "I2C",
 ];
 
 // Experience & education timeline
