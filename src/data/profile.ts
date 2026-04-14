@@ -65,6 +65,13 @@ export const timeline = [
     description:
       "Second-year student focusing on embedded systems, circuit design, and signal processing.",
   },
+  {
+    year: "2024 - 2025",
+    title: "London Scholars Program",
+    organization: "Northeastern University",
+    description:
+      "Selected for the London Scholars Program, providing opportunities for academic and cultural exchange in London.",
+  },
 ];
 
 export const resumePath = "/documents/resume.pdf";
